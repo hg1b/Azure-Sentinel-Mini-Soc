@@ -12,7 +12,7 @@
 - To ensure the Mini-SOC lab remains cost-controlled, I configured an Azure budget alert named Mini-SOC1 under my billing account.
 Monthly Budget: USD $200
 Alert Threshold: 80% (USD $160)
-Email Notifications: Enabled at hugogibietis@gmail.com
+Email Notifications: Enabled
 This setup ensures proactive cost monitoring during continuous operation of Azure resources (Log Analytics Workspace, Sentinel, and virtual machines). It also demonstrates financial governance, a critical element of real-world SOC management and cloud security operations.
 - After this I successfully deployed the Windows 11 Pro VM (MiniSOC-VM01) in Azure using the standard_B1s instance type -> configured trusted launch, secure boot and vTpm for security with diagnostics and auto shutdown enabled to support log ingestion into Microsoft Sentinel while keeping costs low.
 - Installed Sysmon inside the VM to begin collecting detailed Windows telemetry (process creation, network connection, registry changes, file modifications)
