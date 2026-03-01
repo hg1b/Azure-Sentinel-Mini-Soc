@@ -22,8 +22,7 @@ Windows 11 VM (Sysmon)
 - KQL queries to validate telemetry ingestion
 
 
-
-### Skills
+## Skills
 - SIEM: Microsoft Sentinel
 - Log Management: Azure Log Analytics
 - Endpoint Telemetry: Sysmon
