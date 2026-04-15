@@ -3,6 +3,7 @@ This project is a hands-on Mini Security Operations Centre built in Microsoft Az
 The goal was to simulate a real-world SOC environment by ingesting endpoint telemetry, validating logs, and preparing for detection engineering and threat hunting.
 Built as part of my cybersecurity portfolio to demonstrate practical SIEM and cloud security skills.
 
+<img width="1141" height="791" alt="Azure Mini Soc Topology drawio" src="https://github.com/user-attachments/assets/c213b610-7ed8-440b-98d5-1ae7ca9b5e51" />
 
 ## Architecture
 Windows 11 VM (Sysmon)
